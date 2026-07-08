@@ -1,2 +1,2 @@
 # MB5370GenomicsWorkshop2
-Metagenome assembly of vibrio
+Metagenome assembly of vibrio bacteria
