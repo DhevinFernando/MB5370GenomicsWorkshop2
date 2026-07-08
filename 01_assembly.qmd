@@ -60,4 +60,15 @@ Gaps = 0
 fly large read
 
 ``` bash
+jc840494@rstudio2:~/workshop2_assembly/flye/amtp4_20x$ assembly-stats assembly.fasta
+stats for assembly.fasta
+sum = 7482774, n = 54, ave = 138569.89, largest = 3378344
+N50 = 1775265, n = 2
+N60 = 1775265, n = 2
+N70 = 113574, n = 3
+N80 = 74047, n = 12
+N90 = 44111, n = 25
+N100 = 4044, n = 54
+N_count = 0
+Gaps = 0
 ```
