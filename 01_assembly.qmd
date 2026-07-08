@@ -1,0 +1,63 @@
+---
+title: "MB5370 Module 3 Workshop 2"
+format: html
+editor: visual
+---
+
+## Assembly stats redbean
+
+read took:
+
+\*\* PROC_STAT(TOTAL) \*\*: real 6.622 sec, user 21.630 sec, sys 2.210 sec, maxrss 284344.0 kB, maxvsize 903716.0 kB
+
+\*\* PROC_STAT(TOTAL) \*\*: real 43.767 sec, user 191.220 sec, sys 10.070 sec, maxrss 277812.0 kB, maxvsize 915288.0 kB
+
+``` bash
+
+#stats for amtp4.ctg.fa
+#sum = 3639649, n = 120, ave = 30330.41, largest = 143809
+#N50 = 48273, n = 23
+#N60 = 36829, n = 32
+#N70 = 28879, n = 43
+#N80 = 22438, n = 57
+#N90 = 13359, n = 79
+#N100 = 2697, n = 120
+#N_count = 0
+#Gaps = 0
+```
+
+20x read stats:
+
+``` bash
+jc840494@rstudio2:~/redbean$ assembly-stats amtp4_20x.ctg.fa
+stats for amtp4_20x.ctg.fa
+sum = 6878955, n = 89, ave = 77291.63, largest = 3344242
+N50 = 1764943, n = 2
+N60 = 1764943, n = 2
+N70 = 1764943, n = 2
+N80 = 54425, n = 8
+N90 = 23747, n = 28
+N100 = 4477, n = 89
+N_count = 0
+Gaps = 0
+```
+
+flye small read
+
+``` bash
+jc840494@rstudio2:~/workshop2_assembly/flye/amtp4$ assembly-stats assembly.fastastats for assembly.fasta
+sum = 5156284, n = 77, ave = 66964.73, largest = 368927
+N50 = 120111, n = 15
+N60 = 99421, n = 20
+N70 = 73541, n = 26
+N80 = 48300, n = 35
+N90 = 31251, n = 48
+N100 = 2777, n = 77
+N_count = 0
+Gaps = 0
+```
+
+fly large read
+
+``` bash
+```
